@@ -1,0 +1,30 @@
+aniso8601==3.0.2
+asn1crypto==0.24.0
+cffi==1.11.5
+click==6.7
+cryptography==2.2.2
+Flask==1.0.2
+Flask-RESTful==0.3.6
+gunicorn==19.9.0
+idna==2.7
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pycparser==2.18
+PyMySQL==0.9.2
+pytz==2018.5
+six==1.11.0
+Werkzeug==0.14.1
+Requirement already satisfied: python-jose in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (3.0.1)
+Requirement already satisfied: ecdsa<1.0 in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (from python-jose) (0.13)
+Requirement already satisfied: future<1.0 in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (from python-jose) (0.16.0)
+Requirement already satisfied: six<2.0 in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (from python-jose) (1.11.0)
+Requirement already satisfied: rsa in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (from python-jose) (4.0)
+Requirement already satisfied: pyasn1>=0.1.3 in /Users/alkeira/Documents/sandbox/km-api/venv/lib/python2.7/site-packages (from rsa->python-jose) (0.4.4)
+Requirement already satisfied: Flask-Cache in /usr/local/lib/python2.7/site-packages (0.13.1)
+Requirement already satisfied: Flask in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Flask-Cache) (1.0.2)
+Requirement already satisfied: Jinja2>=2.10 in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Flask->Flask-Cache) (2.10)
+Requirement already satisfied: itsdangerous>=0.24 in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Flask->Flask-Cache) (0.24)
+Requirement already satisfied: Werkzeug>=0.14 in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Flask->Flask-Cache) (0.14.1)
+Requirement already satisfied: click>=5.1 in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Flask->Flask-Cache) (6.7)
+Requirement already satisfied: MarkupSafe>=0.23 in /Users/alkeira/Library/Python/2.7/lib/python/site-packages (from Jinja2>=2.10->Flask->Flask-Cache) (1.0)

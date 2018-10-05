@@ -1,0 +1,45 @@
+FORMAT: 1A
+
+# Kuismilioner API 
+<img style="float: right;position: relative;bottom: 85px;" src="https://www.kuismilioner.com/themes/km/assets/img/Logo/kuismilioner_logo_new.png">
+
+"KM API" is a simple API to get data for all KM application needs
+
+# Group Payment
+
+## Payment Collection [/api/payment]
+
+### List all Payment [GET]
+
+### List one Payment [POST]
+
++ Response 200 (application/json)
+    {
+        "meta":{
+        "status":200,
+        "page": {
+            "current":"1",
+            "per_page":10,
+            "total":1
+        }
+        },
+        "data":[
+        {
+            "type":
+            "articles",
+            "id":1,
+            "attributes": {
+            "title":"Ut quam corporis corrupti.",
+            "text":"Quaerat neque error. Fuga ut voluptatem ducimus quia facilis. Quibusdam reprehenderit quia tempore. Id velit repellendus ut optio harum maiores. Ipsam tenetur vel.",
+            "created_at":"2016-01-31T10:56:30.879Z"
+            },
+            "relationships":{
+            "author": {
+                "type":"companies",
+                "id":1,
+                "name":"JetRuby"
+            }
+            }
+        }
+        ]
+    }
